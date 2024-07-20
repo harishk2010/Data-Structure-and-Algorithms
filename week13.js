@@ -33,8 +33,6 @@ console.log(merge(word1, word2))
 //         second=arr[i]
 //     }
 // }
-
-
 // console.log(second,largest)
 
 // let str='aabbccdd'

@@ -95,3 +95,44 @@ list.removeFromLast()
 list.print()
 console.log("size",list.theSize())
 
+
+function fact(n){
+    if(n<2){
+        return 1
+    }
+    return n*fact(n-1)
+}
+
+function fib(a){
+    if(a<2) return a
+    return fib(a-1)+fib(a-2)
+}
+
+function powoftwo(a){
+    while(a%2===0){
+        a/=2
+    }
+    if(a===1) return true
+    return false
+}
+
+function bi(arr,t){
+    let l=0
+    let r=arr.length-1
+    while(l<=r){
+        let m=Math.floor((l+r)/2)
+        if(t===arr[m]) return m
+        else if(arr[m]>t){
+            r=m-1
+            
+        }else{
+            l=m+1
+        }
+    }
+    return -1
+}
+let array=[1,3]
+let a=1
+
+console.log(fact(a),fib(a),powoftwo(a),bi(array,a))
+

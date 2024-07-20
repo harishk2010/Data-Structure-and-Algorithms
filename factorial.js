@@ -90,12 +90,12 @@ function fact(n){
     // }
     // return factorial //normal loop
     if(n<2){
-        return n
+        return 1
     }
     return n*fact(n-1) ///recursion
 }
 
-console.log(fact(4))
+console.log(fact(1))
 
 function fibonacci(n){
 
@@ -113,3 +113,20 @@ function fibonacci(n){
 }
 
 console.log(fibonacci(0))
+
+
+function poweroftwo(a){
+    // while(a%2===0){
+    //     a/=2
+    // }
+
+    // if(a!==1) return false
+    // return true
+
+    if( a & a-1 ) return false
+    return true
+
+
+}
+
+console.log(poweroftwo(64))
