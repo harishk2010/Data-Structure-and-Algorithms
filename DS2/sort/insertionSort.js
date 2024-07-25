@@ -15,4 +15,4 @@ function insertionSort(arr){
 
 const array = [-7, 22, -8, -1, 0, 6, 3, 0]
 insertionSort(array)
-console.log(array)
+console.log(array) /// Big-O(n^2)
