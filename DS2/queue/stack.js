@@ -30,5 +30,6 @@ stack.push(40)
 
 stack.print()
 console.log(stack.pop())
+console.log(stack.pop())
 console.log(stack.peek())
 stack.print()

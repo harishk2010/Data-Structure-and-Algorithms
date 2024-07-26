@@ -1,4 +1,4 @@
-let array=[1,8,0,3,-10,10,-6]
+let array=[1,8,0,3,-10,10,,99,-6]
 
 function selectionSort(arr){
     for(let i=0;i<arr.length;i++){
